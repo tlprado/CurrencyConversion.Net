@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CurrencyConversion.Net.Domain\CurrencyConversion.Net.Domain.csproj" />
+    <ProjectReference Include="..\CurrencyConversion.Net.Infra\CurrencyConversion.Net.Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\Repositories\" />
+  </ItemGroup>
+
+</Project>
