@@ -7,7 +7,6 @@ namespace CurrencyConversion.Net.Domain.Entities
         public string Name { get; private set; }
         public string Code { get; private set; }
 
-
         public Currency(string name, string code)
         {
             SetName(name);
